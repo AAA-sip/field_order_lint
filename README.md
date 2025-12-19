@@ -26,6 +26,9 @@ analyzer:
 custom_lint:
   rules:
     - field_order_by_type
+    - constructor_order_by_field
+    - field_separator_between_groups
+    - parameter_order_by_type
 ```
 
 ## ✨ What it does
