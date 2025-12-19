@@ -1,0 +1,1899 @@
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to read pubspec.yaml at /Users/ali/FlutterProjects/field_order_lints/example:
+ParsedYamlException: line 1, column 1: Not a map
+  ╷
+1 │ 
+  │ ^
+  ╵
+#0      checkedYamlDecode (package:checked_yaml/checked_yaml.dart:41)
+#1      new Pubspec.parse (package:pubspec_parse/src/pubspec.dart:185)
+#2      parsePubspec (package:custom_lint_core/src/package_utils.dart:89)
+<asynchronous suspension>
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:920)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:923)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._completeError (dart:async/future_impl.dart:742)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Failed to decode .dart_tool/package_config.json at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+PathNotFoundException: Cannot open file, path = '/Users/ali/FlutterProjects/field_order_lints/example/.dart_tool/pub/workspace_ref.json' (OS Error: No such file or directory, errno = 2)
+#0      _File.throwIfError (dart:io/file_impl.dart:783)
+#1      _File.openSync (dart:io/file_impl.dart:576)
+#2      _File.readAsBytesSync (dart:io/file_impl.dart:664)
+#3      _File.readAsStringSync (dart:io/file_impl.dart:719)
+#4      parsePackageConfig (package:custom_lint_core/src/package_utils.dart:142)
+#5      CustomLintProject.parse (package:custom_lint/src/workspace.dart:930)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#7      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#8      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#9      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#10     CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#11     PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#12     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:933)
+#1      _rootRunBinary (dart:async/zone.dart:1560)
+#2      _CustomZone.runBinary (dart:async/zone.dart:1436)
+#3      _FutureListener.handleError (dart:async/future_impl.dart:237)
+#4      Future._propagateToListeners.handleError (dart:async/future_impl.dart:960)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:981)
+#6      Future._completeErrorObject (dart:async/future_impl.dart:738)
+#7      Future._asyncCompleteErrorObject.<anonymous closure> (dart:async/future_impl.dart:832)
+#8      _rootRun (dart:async/zone.dart:1525)
+#9      _CustomZone.run (dart:async/zone.dart:1422)
+#10     _CustomZone.runGuarded (dart:async/zone.dart:1321)
+#11     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362)
+#12     _microtaskLoop (dart:async/schedule_microtask.dart:40)
+#13     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49)
+#14     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127)
+#15     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194)
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setPriorityFiles failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.setSubscriptions failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request edit.getFixes failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The plugin field_order_lints was not found in the package config at /Users/ali/FlutterProjects/field_order_lints/example. Make sure to run `pub get` first.
+at:
+#0      CustomLintProject.parse.<anonymous closure> (package:custom_lint/src/workspace.dart:948)
+#1      MappedIterator.moveNext (dart:_internal/iterable.dart:420)
+#2      Future.wait (dart:async/future.dart:544)
+#3      CustomLintProject.parse (package:custom_lint/src/workspace.dart:940)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:546)
+<asynchronous suspension>
+#5      CustomLintWorkspace.fromContextRoots (package:custom_lint/src/workspace.dart:515)
+<asynchronous suspension>
+#6      SocketCustomLintServerToClientChannel.create (package:custom_lint/src/v2/server_to_client_channel.dart:54)
+<asynchronous suspension>
+#7      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:362)
+<asynchronous suspension>
+#8      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343)
+<asynchronous suspension>
+#9      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#10     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:13:5: Error: Type 'AnalysisError' not found.
+[custom_lint] 2025-12-19T11:33:28.687258     AnalysisError error,
+[custom_lint] 2025-12-19T11:33:28.687258     ^^^^^^^^^^^^^
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:9:8: Error: The method 'FieldOrderFix.run' has fewer positional arguments than those of overridden method 'Fix.run'.
+[custom_lint] 2025-12-19T11:33:28.687258   void run(
+[custom_lint] 2025-12-19T11:33:28.687258        ^
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/.pub-cache/hosted/pub.dev/custom_lint_core-0.8.1/lib/src/fixes.dart:85:8: Context: This is the overridden method ('run').
+[custom_lint] 2025-12-19T11:33:28.687258   void run(
+[custom_lint] 2025-12-19T11:33:28.687258        ^
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:13:5: Error: 'AnalysisError' isn't a type.
+[custom_lint] 2025-12-19T11:33:28.687258     AnalysisError error,
+[custom_lint] 2025-12-19T11:33:28.687258     ^^^^^^^^^^^^^
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:28:28: Error: The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<FieldDeclaration>'.
+[custom_lint] 2025-12-19T11:33:28.687258  - 'List' is from 'dart:core'.
+[custom_lint] 2025-12-19T11:33:28.687258  - 'FieldDeclaration' is from 'package:analyzer/src/dart/ast/ast.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/analyzer-8.4.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2025-12-19T11:33:28.687258     if (_sameOrder(fields, sorted)) return;
+[custom_lint] 2025-12-19T11:33:28.687258                            ^
+[custom_lint] 2025-12-19T11:33:28.687258 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:35:11: Error: The method 'SourceRange' isn't defined for the type 'FieldOrderFix'.
+[custom_lint] 2025-12-19T11:33:28.687258  - 'FieldOrderFix' is from 'package:field_order_lints/src/field_order_fix.dart' ('/Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart').
+[custom_lint] 2025-12-19T11:33:28.687258 Try correcting the name to the name of an existing method, or defining a method named 'SourceRange'.
+[custom_lint] 2025-12-19T11:33:28.687258           SourceRange(fields[i].offset, fields[i].length),
+[custom_lint] 2025-12-19T11:33:28.687258           ^^^^^^^^^^^
+[custom_lint] 2025-12-19T11:33:28.687258
+[custom_lint] 2025-12-19T11:33:28.687258
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T11:33:28.701254 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:637:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T11:33:28.701254 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T11:33:28.701254 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:33:28.701254
+[custom_lint] 2025-12-19T11:34:21.659959 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:18:24: Error: The getter 'node' isn't defined for the type 'Diagnostic'.
+[custom_lint] 2025-12-19T11:34:21.659959  - 'Diagnostic' is from 'package:_fe_analyzer_shared/src/base/errors.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-91.0.0/lib/src/base/errors.dart').
+[custom_lint] 2025-12-19T11:34:21.659959 Try correcting the name to the name of an existing getter, or defining a getter or field named 'node'.
+[custom_lint] 2025-12-19T11:34:21.659959     final node = error.node;
+[custom_lint] 2025-12-19T11:34:21.659959                        ^^^^
+[custom_lint] 2025-12-19T11:34:21.659959
+[custom_lint] 2025-12-19T11:34:21.659959
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T11:34:21.671138 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:637:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T11:34:21.671138 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T11:34:21.671138 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:34:21.671138
+[custom_lint] 2025-12-19T11:35:31.650331 /Users/ali/FlutterProjects/field_order_lints/lib/src/field_order_fix.dart:99:1: Error: Expected a declaration, but got '}'.
+[custom_lint] 2025-12-19T11:35:31.650331 }
+[custom_lint] 2025-12-19T11:35:31.650331 ^
+[custom_lint] 2025-12-19T11:35:31.650331
+[custom_lint] 2025-12-19T11:35:31.650331
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T11:35:31.661304 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:637:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T11:35:31.661304 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T11:35:31.661304 <asynchronous suspension>
+[custom_lint] 2025-12-19T11:35:31.661304
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
+The request analysis.updateContent failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Invalid overlay change: no content to change
+null
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234)
+<asynchronous suspension>
+#2      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:192)
+<asynchronous suspension>
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175)
+<asynchronous suspension>
+
