@@ -2,12 +2,12 @@ class AggregationEntity {
   final int createdBy;
   final int itemsCount;
   final String id;
-  final String? comment;
   final Lox da;
+  final String? comment;
   final List<String> codes;
-  final List<Lox?> net;
   final List<Lox>? newt;
   final List<Lox?>? nwewt;
+  final List<Lox?> net;
 
   AggregationEntity({
     required this.id,
