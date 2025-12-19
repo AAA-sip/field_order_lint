@@ -5,9 +5,9 @@ class AggregationEntity {
   final Lox da;
   final String? comment;
   final List<String> codes;
+  final List<Lox?> net;
   final List<Lox>? newt;
   final List<Lox?>? nwewt;
-  final List<Lox?> net;
 
   AggregationEntity({
     required this.id,

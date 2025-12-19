@@ -3,8 +3,10 @@ import 'package:analyzer/diagnostic/diagnostic.dart';
 import 'package:analyzer/source/source_range.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
 
+import 'utils.dart';
+
 class FieldOrderFix extends DartFix {
-  String get name => 'Sort fields by types';
+  String get name => 'Sort fields by types and name';
 
   @override
   Future<void> run(
@@ -27,7 +29,17 @@ class FieldOrderFix extends DartFix {
 
     final List<FieldDeclaration> sorted = [...fields]
       ..sort((a, b) {
-        return _priority(a).compareTo(_priority(b));
+        final typeA = a.fields.type?.toSource() ?? '';
+        final typeB = b.fields.type?.toSource() ?? '';
+        final prioA = getPriority(typeA);
+        final prioB = getPriority(typeB);
+
+        final compare = prioA.compareTo(prioB);
+        if (compare != 0) return compare;
+
+        final nameA = a.fields.variables.first.name.lexeme;
+        final nameB = b.fields.variables.first.name.lexeme;
+        return nameA.compareTo(nameB);
       });
 
     if (_sameOrder(fields, sorted)) return;
@@ -55,26 +67,6 @@ class FieldOrderFix extends DartFix {
       }
     }
     return null;
-  }
-
-  int _priority(FieldDeclaration f) {
-    final rawType = f.fields.type?.toSource() ?? '';
-    final nullable = rawType.endsWith('?');
-    final type = nullable ? rawType.substring(0, rawType.length - 1) : rawType;
-
-    if (type.startsWith('List') ||
-        type.startsWith('Map') ||
-        type.startsWith('Set') ||
-        type.startsWith('Iterable')) {
-      return 4;
-    }
-
-    if (nullable) return 3;
-
-    if (['int', 'double', 'bool', 'num'].contains(type)) return 0;
-    if (type == 'String') return 1;
-
-    return 2;
   }
 
   bool _sameOrder(List<FieldDeclaration> a, List<FieldDeclaration> b) {

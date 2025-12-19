@@ -15,7 +15,18 @@ dev_dependencies:
       url: https://github.com/AAA-sip/field_order_lint.git
       ref: main
 ```
-of course Than in analysis_opt.yamk
+
+of course Than in `analysis_options.yaml`
+
+```yaml
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  rules:
+    - field_order_by_type
+```
 
 ## ✨ What it does
 

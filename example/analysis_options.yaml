@@ -2,9 +2,6 @@ analyzer:
   plugins:
     - custom_lint
 
-  errors:
-    field_order_by_type: info
-
 custom_lint:
   rules:
     - field_order_by_type
