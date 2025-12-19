@@ -5,3 +5,4 @@ analyzer:
 custom_lint:
   rules:
     - field_order_by_type
+    - constructor_order_by_field

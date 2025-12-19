@@ -30,6 +30,16 @@ class FieldOrderRule extends DartLintRule {
         final prev = fields[i - 1];
         final curr = fields[i];
 
+        final prevModPrio = getModifierPriority(prev);
+        final currModPrio = getModifierPriority(curr);
+
+        if (currModPrio < prevModPrio) {
+          reporter.atNode(curr, code);
+          break;
+        }
+
+        if (currModPrio > prevModPrio) continue;
+
         final prevType = prev.fields.type?.toSource() ?? '';
         final currType = curr.fields.type?.toSource() ?? '';
 

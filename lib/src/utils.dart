@@ -1,4 +1,14 @@
 
+import 'package:analyzer/dart/ast/ast.dart';
+
+int getModifierPriority(FieldDeclaration node) {
+  final v = node.fields;
+  if (node.isStatic) return 0;
+  if (v.isLate) return 3;
+  if (v.isFinal) return 1;
+  return 2;
+}
+
 bool _isCollection(String type) {
   return type.startsWith('List') ||
       type.startsWith('Map') ||

@@ -29,6 +29,10 @@ class FieldOrderFix extends DartFix {
 
     final List<FieldDeclaration> sorted = [...fields]
       ..sort((a, b) {
+        final modPrioA = getModifierPriority(a);
+        final modPrioB = getModifierPriority(b);
+        if (modPrioA != modPrioB) return modPrioA.compareTo(modPrioB);
+
         final typeA = a.fields.type?.toSource() ?? '';
         final typeB = b.fields.type?.toSource() ?? '';
         final prioA = getPriority(typeA);

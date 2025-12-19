@@ -10,15 +10,15 @@ class AggregationEntity {
   final List<Lox?>? nwewt;
 
   AggregationEntity({
-    required this.id,
-    required this.da,
-    required this.net,
-    required this.codes,
     required this.createdBy,
     required this.itemsCount,
+    required this.id,
+    required this.da,
+    this.comment,
+    required this.codes,
+    required this.net,
     this.newt,
     this.nwewt,
-    this.comment,
   });
 
   copyWith({
@@ -69,9 +69,9 @@ class AggregationEntityGOOD {
     required this.itemsCount,
     required this.price,
     required this.id,
-    required this.codes,
-    this.comment,
     required this.da,
+    this.comment,
+    required this.codes,
     required this.net,
     this.newt,
     this.nwewt,
