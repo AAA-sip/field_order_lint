@@ -7,8 +7,6 @@ A Dart custom linter that automatically organizes class fields in a consistent, 
 Add to your `pubspec.yaml`:
 
 ```yaml
-dependencies:
-  custom_lint_builder: (^0.8.1) || any?
 
 dev_dependencies:
   custom_lint: (^0.8.1) || any?
