@@ -17,7 +17,7 @@ dev_dependencies:
       url: https://github.com/AAA-sip/field_order_lint.git
       ref: main
 ```
-of Than in analysis_opt.yamk
+of course Than in analysis_opt.yamk
 
 ## ✨ What it does
 
