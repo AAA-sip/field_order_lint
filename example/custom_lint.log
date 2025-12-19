@@ -2003,3 +2003,238 @@ at:
 [custom_lint] 2025-12-19T15:06:33.149094 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
 [custom_lint] 2025-12-19T15:06:33.149094 <asynchronous suspension>
 [custom_lint] 2025-12-19T15:06:33.149094
+[custom_lint] 2025-12-19T16:43:57.232503 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:17:59: Error: The getter 'options' isn't defined for the type 'LintOptions'.
+[custom_lint] 2025-12-19T16:43:57.232503  - 'LintOptions' is from 'package:custom_lint_core/src/configs.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/custom_lint_core-0.8.1/lib/src/configs.dart').
+[custom_lint] 2025-12-19T16:43:57.232503 Try correcting the name to the name of an existing getter, or defining a getter or field named 'options'.
+[custom_lint] 2025-12-19T16:43:57.232503     final options = configs.rules['field_order_by_type']?.options ??
+[custom_lint] 2025-12-19T16:43:57.232503                                                           ^^^^^^^
+[custom_lint] 2025-12-19T16:43:57.232503 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:18:51: Error: The getter 'options' isn't defined for the type 'LintOptions'.
+[custom_lint] 2025-12-19T16:43:57.232503  - 'LintOptions' is from 'package:custom_lint_core/src/configs.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/custom_lint_core-0.8.1/lib/src/configs.dart').
+[custom_lint] 2025-12-19T16:43:57.232503 Try correcting the name to the name of an existing getter, or defining a getter or field named 'options'.
+[custom_lint] 2025-12-19T16:43:57.232503         configs.rules['parameter_order_by_type']?.options ??
+[custom_lint] 2025-12-19T16:43:57.232503                                                   ^^^^^^^
+[custom_lint] 2025-12-19T16:43:57.232503
+[custom_lint] 2025-12-19T16:43:57.232503
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T16:44:03.135859 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:17:59: Error: The getter 'options' isn't defined for the type 'LintOptions'.
+[custom_lint] 2025-12-19T16:44:03.135859  - 'LintOptions' is from 'package:custom_lint_core/src/configs.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/custom_lint_core-0.8.1/lib/src/configs.dart').
+[custom_lint] 2025-12-19T16:44:03.135859 Try correcting the name to the name of an existing getter, or defining a getter or field named 'options'.
+[custom_lint] 2025-12-19T16:44:03.135859     final options = configs.rules['field_order_by_type']?.options ??
+[custom_lint] 2025-12-19T16:44:03.135859                                                           ^^^^^^^
+[custom_lint] 2025-12-19T16:44:03.135859 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:18:51: Error: The getter 'options' isn't defined for the type 'LintOptions'.
+[custom_lint] 2025-12-19T16:44:03.135859  - 'LintOptions' is from 'package:custom_lint_core/src/configs.dart' ('/Users/ali/.pub-cache/hosted/pub.dev/custom_lint_core-0.8.1/lib/src/configs.dart').
+[custom_lint] 2025-12-19T16:44:03.135859 Try correcting the name to the name of an existing getter, or defining a getter or field named 'options'.
+[custom_lint] 2025-12-19T16:44:03.135859         configs.rules['parameter_order_by_type']?.options ??
+[custom_lint] 2025-12-19T16:44:03.135859                                                   ^^^^^^^
+[custom_lint] 2025-12-19T16:44:03.135859
+[custom_lint] 2025-12-19T16:44:03.135859
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T16:44:03.144684 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:637:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T16:44:03.144684 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T16:44:03.144684 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:44:03.144684
+[custom_lint client] 2025-12-19T16:45:24.767575 Options found: {}
+[custom_lint client] 2025-12-19T16:45:51.009043 Rule keys: [field_order_by_type, constructor_order_by_field, field_separator_between_groups, parameter_order_by_type]
+[custom_lint client] 2025-12-19T16:45:51.013422 Options found: {}
+[custom_lint client] 2025-12-19T16:46:26.333065 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:46:26.335270 Options found: {}
+[custom_lint client] 2025-12-19T16:46:58.360136 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:46:58.362449 Options found: {}
+[custom_lint client] 2025-12-19T16:47:00.032625 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:47:00.032860 Options found: {}
+[custom_lint client] 2025-12-19T16:47:17.296782 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:47:17.299182 Options found: {}
+[custom_lint client] 2025-12-19T16:47:45.795005 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:47:45.795515 Options found: {}
+[custom_lint client] 2025-12-19T16:47:47.628901 RuleOptions type: LintOptions
+[custom_lint client] 2025-12-19T16:47:47.630984 Options found: {}
+[custom_lint client] 2025-12-19T16:48:10.039350 RuleOptions: Instance of 'LintOptions'
+[custom_lint client] 2025-12-19T16:48:10.041747 Options found: {}
+[custom_lint client] 2025-12-19T16:48:51.990950 RuleOptions: null
+[custom_lint client] 2025-12-19T16:48:51.994259 Options found: {}
+[custom_lint client] 2025-12-19T16:48:52.312923 RuleOptions: null
+[custom_lint client] 2025-12-19T16:48:52.313225 Options found: {}
+[custom_lint client] 2025-12-19T16:49:38.861741 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:38.864630 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:38.864907 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:38.865004 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:38.865113 Options found: {}
+[custom_lint client] 2025-12-19T16:49:39.218589 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:39.219013 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:39.219330 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:39.219389 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:49:39.219448 Options found: {}
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:NoSuchMethodError: Class 'LintOptions' has no instance getter 'options'.
+Receiver: Instance of 'LintOptions'
+Tried calling: options
+#0      Object.noSuchMethod (dart:core-patch/object_patch.dart:38:5)
+#1      new LintSettings.fromConfigs (package:field_order_lints/src/utils.dart:18:52)
+#2      _Plugin.getLintRules (package:field_order_lints/field_order_lints.dart:15:35)
+#3      _CustomLintAnalysisConfigs._lintRulesForContext.<anonymous closure> (package:custom_lint_builder/src/client.dart:326:42)
+#4      ExpandIterator.moveNext (dart:_internal/iterable.dart:510:31)
+#5      WhereIterator.moveNext (dart:_internal/iterable.dart:467:22)
+#6      new _GrowableList._ofOther (dart:core-patch/growable_array.dart:207:26)
+#7      new _GrowableList.of (dart:core-patch/growable_array.dart:156:26)
+#8      new List.of (dart:core-patch/array_patch.dart:39:18)
+#9      Iterable.toList (dart:core/iterable.dart:517:7)
+#10     _CustomLintAnalysisConfigs._lintRulesForContext (package:custom_lint_builder/src/client.dart:328:10)
+#11     new _CustomLintAnalysisConfigs.from (package:custom_lint_builder/src/client.dart:300:19)
+#12     _ClientAnalyzerPlugin.afterNewContextCollection.<anonymous closure> (package:custom_lint_builder/src/client.dart:489:56)
+<asynchronous suspension>
+#13     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1095:14)
+<asynchronous suspension>
+#14     ServerPlugin.handleAnalysisSetContextRoots (package:analyzer_plugin/plugin/plugin.dart:259:5)
+<asynchronous suspension>
+#15     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:540:18)
+<asynchronous suspension>
+#16     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:606:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273:11)
+<asynchronous suspension>
+#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#2      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:126:5)
+<asynchronous suspension>
+#4      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:396:5)
+<asynchronous suspension>
+#5      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343:9)
+<asynchronous suspension>
+#6      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#7      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175:22)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T16:50:09.984746 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"A request threw the exception:NoSuchMethodError: Class 'LintOptions' has no instance getter 'options'.\nReceiver: Instance of 'LintOptions'\nTried calling: options\n#0      Object.noSuchMethod (dart:core-patch/object_patch.dart:38:5)\n#1      new LintSettings.fromConfigs (package:field_order_lints/src/utils.dart:18:52)\n#2      _Plugin.getLintRules (package:field_order_lints/field_order_lints.dart:15:35)\n#3      _CustomLintAnalysisConfigs._lintRulesForContext.<anonymous closure> (package:custom_lint_builder/src/client.dart:326:42)\n#4      ExpandIterator.moveNext (dart:_internal/iterable.dart:510:31)\n#5      WhereIterator.moveNext (dart:_internal/iterable.dart:467:22)\n#6      new _GrowableList._ofOther (dart:core-patch/growable_array.dart:207:26)\n#7      new _GrowableList.of (dart:core-patch/growable_array.dart:156:26)\n#8      new List.of (dart:core-patch/array_patch.dart:39:18)\n#9      Iterable.toList (dart:core/iterable.dart:517:7)\n#10     _CustomLintAnalysisConfigs._lintRulesForContext (package:custom_lint_builder/src/client.dart:328:10)\n#11     new _CustomLintAnalysisConfigs.from (package:custom_lint_builder/src/client.dart:300:19)\n#12     _ClientAnalyzerPlugin.afterNewContextCollection.<anonymous closure> (package:custom_lint_builder/src/client.dart:489:56)\n<asynchronous suspension>\n#13     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1095:14)\n<asynchronous suspension>\n#14     ServerPlugin.handleAnalysisSetContextRoots (package:analyzer_plugin/plugin/plugin.dart:259:5)\n<asynchronous suspension>\n#15     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:540:18)\n<asynchronous suspension>\n#16     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:606:18)\n<asynchronous suspension>\n","stackTrace":"#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:273:11)\n<asynchronous suspension>\n#1      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)\n<asynchronous suspension>\n#2      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)\n<asynchronous suspension>\n#3      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:126:5)\n<asynchronous suspension>\n#4      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:396:5)\n<asynchronous suspension>\n#5      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:343:9)\n<asynchronous suspension>\n#6      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)\n<asynchronous suspension>\n#7      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:175:22)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T16:50:09.984746 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T16:50:09.984746 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:50:09.984746
+[custom_lint client] 2025-12-19T16:50:45.870346 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:45.873046 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:45.873331 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:45.873676 Options found: {}
+[custom_lint client] 2025-12-19T16:50:47.157947 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:47.158253 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:47.158545 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:50:47.158607 Options found: {}
+[custom_lint client] 2025-12-19T16:51:12.610916 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:12.611393 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:12.611466 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:12.611514 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:12.611557 Options found: {}
+[custom_lint client] 2025-12-19T16:51:14.946548 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:14.949373 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:14.949497 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:14.949581 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:51:14.949668 Options found: {}
+[custom_lint client] 2025-12-19T16:52:01.635489 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:01.636008 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:01.636080 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:01.636134 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:01.636189 Options found: {}
+[custom_lint client] 2025-12-19T16:52:05.652589 Rule field_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:05.654554 Rule constructor_order_by_field: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:05.654711 Rule field_separator_between_groups: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:05.654836 Rule parameter_order_by_type: enabled=true, json={}
+[custom_lint client] 2025-12-19T16:52:05.654947 Options found: {}
+[custom_lint] 2025-12-19T16:52:37.206321 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:21:48: Error: Can't find '}' to match '{'.
+[custom_lint] 2025-12-19T16:52:37.206321     for (final entry in configs.rules.entries) {
+[custom_lint] 2025-12-19T16:52:37.206321                                                ^
+[custom_lint] 2025-12-19T16:52:37.206321 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:25:28: Error: Undefined name 'options'.
+[custom_lint] 2025-12-19T16:52:37.206321     print('Options found: $options');
+[custom_lint] 2025-12-19T16:52:37.206321                            ^^^^^^^
+[custom_lint] 2025-12-19T16:52:37.206321 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:36:32: Error: Undefined name 'options'.
+[custom_lint] 2025-12-19T16:52:37.206321     final customTypePriority = options['type_priority'];
+[custom_lint] 2025-12-19T16:52:37.206321                                ^^^^^^^
+[custom_lint] 2025-12-19T16:52:37.206321 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:53:31: Error: Undefined name 'options'.
+[custom_lint] 2025-12-19T16:52:37.206321     final customModPriority = options['modifier_priority'];
+[custom_lint] 2025-12-19T16:52:37.206321                               ^^^^^^^
+[custom_lint] 2025-12-19T16:52:37.206321 /Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart:16:11: Error: A non-null value must be returned since the return type 'LintSettings' doesn't allow null.
+[custom_lint] 2025-12-19T16:52:37.206321  - 'LintSettings' is from 'package:field_order_lints/src/utils.dart' ('/Users/ali/FlutterProjects/field_order_lints/lib/src/utils.dart').
+[custom_lint] 2025-12-19T16:52:37.206321   factory LintSettings.fromConfigs(CustomLintConfigs configs) {
+[custom_lint] 2025-12-19T16:52:37.206321           ^
+[custom_lint] 2025-12-19T16:52:37.206321
+[custom_lint] 2025-12-19T16:52:37.206321
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:637:5)
+<asynchronous suspension>
+
+[custom_lint] 2025-12-19T16:52:37.217692 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:223:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:637:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2025-12-19T16:52:37.217692 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:41:5)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:96:7)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #3      _AsyncCompleter.complete (dart:async/future_impl.dart:96:3)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #4      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:126:19)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #5      _runServer (package:custom_lint/custom_lint.dart:86:3)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #6      customLint (package:custom_lint/custom_lint.dart:50:5)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #7      entrypoint (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:68:3)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692 #8      main (file:///Users/ali/.pub-cache/hosted/pub.dev/custom_lint-0.8.1/bin/custom_lint.dart:80:5)
+[custom_lint] 2025-12-19T16:52:37.217692 <asynchronous suspension>
+[custom_lint] 2025-12-19T16:52:37.217692
+[custom_lint client] 2025-12-19T16:53:26.683304 Options found: {}

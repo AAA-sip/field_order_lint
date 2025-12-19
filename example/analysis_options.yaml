@@ -4,5 +4,11 @@ analyzer:
 
 custom_lint:
   rules:
-    - field_order_by_type
+    - field_order_by_type:
+        type_priority:
+          - [int, double, bool, num]
+          - String
+          - DateTime
     - constructor_order_by_field
+    - field_separator_between_groups
+    - parameter_order_by_type

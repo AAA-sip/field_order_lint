@@ -6,7 +6,9 @@ import 'field_separator_fix.dart';
 import 'utils.dart';
 
 class FieldSeparatorRule extends DartLintRule {
-  FieldSeparatorRule()
+  final LintSettings settings;
+
+  FieldSeparatorRule(this.settings)
       : super(
           code: const LintCode(
             name: 'field_separator_between_groups',
@@ -31,8 +33,8 @@ class FieldSeparatorRule extends DartLintRule {
         final prev = fields[i - 1];
         final curr = fields[i];
 
-        final prevGroup = getModifierPriority(prev);
-        final currGroup = getModifierPriority(curr);
+        final prevGroup = settings.getModifierPriority(prev);
+        final currGroup = settings.getModifierPriority(curr);
 
         if (prevGroup != currGroup) {
           // Check for blank line

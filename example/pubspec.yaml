@@ -7,8 +7,8 @@ environment:
   sdk: ^3.10.0
 
 dependencies:
-  custom_lint_builder: ^0.8.1
-  analyzer: ^8.4.0
+  # custom_lint_builder: ^0.8.1
+  # analyzer: ^8.4.0
 
 dev_dependencies:
   custom_lint: ^0.8.1

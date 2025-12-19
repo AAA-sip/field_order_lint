@@ -24,10 +24,10 @@ class AggregationEntity {
   copyWith({
     int? createdBy,
     int? itemsCount,
-    String? id,
-    List<String>? codes,
     String? comment,
+    String? id,
     Lox? da,
+    List<String>? codes,
     List<Lox?>? net,
     List<Lox>? newt,
     List<Lox?>? nwewt,

@@ -6,7 +6,9 @@ import 'field_order_fix.dart';
 import 'utils.dart';
 
 class FieldOrderRule extends DartLintRule {
-  FieldOrderRule()
+  final LintSettings settings;
+
+  FieldOrderRule(this.settings)
       : super(
           code: const LintCode(
             name: 'field_order_by_type',
@@ -15,7 +17,7 @@ class FieldOrderRule extends DartLintRule {
         );
 
   @override
-  List<DartFix> getFixes() => [FieldOrderFix()];
+  List<DartFix> getFixes() => [FieldOrderFix(settings)];
 
   @override
   void run(
@@ -30,8 +32,8 @@ class FieldOrderRule extends DartLintRule {
         final prev = fields[i - 1];
         final curr = fields[i];
 
-        final prevModPrio = getModifierPriority(prev);
-        final currModPrio = getModifierPriority(curr);
+        final prevModPrio = settings.getModifierPriority(prev);
+        final currModPrio = settings.getModifierPriority(curr);
 
         if (currModPrio < prevModPrio) {
           reporter.atNode(curr, code);
@@ -43,8 +45,8 @@ class FieldOrderRule extends DartLintRule {
         final prevType = prev.fields.type?.toSource() ?? '';
         final currType = curr.fields.type?.toSource() ?? '';
 
-        final prevPrio = getPriority(prevType);
-        final currPrio = getPriority(currType);
+        final prevPrio = settings.getPriority(prevType);
+        final currPrio = settings.getPriority(currType);
 
         if (currPrio < prevPrio) {
           reporter.atNode(curr, code);

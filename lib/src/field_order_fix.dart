@@ -6,6 +6,10 @@ import 'package:custom_lint_builder/custom_lint_builder.dart';
 import 'utils.dart';
 
 class FieldOrderFix extends DartFix {
+  final LintSettings settings;
+
+  FieldOrderFix(this.settings);
+
   String get name => 'Sort fields by types and name';
 
   @override
@@ -29,14 +33,14 @@ class FieldOrderFix extends DartFix {
 
     final List<FieldDeclaration> sorted = [...fields]
       ..sort((a, b) {
-        final modPrioA = getModifierPriority(a);
-        final modPrioB = getModifierPriority(b);
+        final modPrioA = settings.getModifierPriority(a);
+        final modPrioB = settings.getModifierPriority(b);
         if (modPrioA != modPrioB) return modPrioA.compareTo(modPrioB);
 
         final typeA = a.fields.type?.toSource() ?? '';
         final typeB = b.fields.type?.toSource() ?? '';
-        final prioA = getPriority(typeA);
-        final prioB = getPriority(typeB);
+        final prioA = settings.getPriority(typeA);
+        final prioB = settings.getPriority(typeB);
 
         final compare = prioA.compareTo(prioB);
         if (compare != 0) return compare;
